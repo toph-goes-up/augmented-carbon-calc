@@ -11,17 +11,22 @@ var applicationState = new Array();
 var regionDefaultsState = new Array();
 var setEventHandlersAssigned;
 
+var tabMap = {'insert1': 0, 'intro': 1, 'insert2': 2, 'transportation': 3, 'insert3': 4, 'housing': 5, 'insert4': 6, 'food': 7, 'insert5': 8, 'shopping': 9, 'insert6': 10, 'takeaction': 11};
 
-function slideTab(page) {
+function slideTab(page, showChart=true) {
 	
+	// Ignore if this is a repeat call
 	if (isSliding === true) return;
 	
-	var tabMap = {'intro': 0, 'transportation': 1, 'housing': 2, 'food': 3, 'shopping': 4, 'takeaction': 5};
-	
-
+	// height1 is the old tab's height, height2 is the new tab's.
 	var height1 = $("#tab_" + tab).height();
 	var height2 = $("#tab_" + page).height();
+
+	console.log(showChart);
+
+
 	
+
 	isSliding = true;
 	$("#transition").css({'height' :height1 + 'px'}).animate({'height' :height2 + 'px'}, 500)
 	$("#tab_" + tab).appendTo("#transition");
@@ -69,7 +74,6 @@ function slideTab(page) {
 }
 
 function updateSmiley(page) {
-	var tabMap = {'intro': 0, 'transportation': 1, 'housing': 2, 'food': 3, 'shopping': 4, 'takeaction': 5};
 	var tabDesc = {'intro': '', 'transportation': 'Travel', 'housing': 'Housing', 'food': 'Food', 'shopping': 'Shopping'};
 	var tabColors  ={'intro': '7DC100', 'transportation': '677FB3', 'housing': 'Housing', 'food': 'Food', 'shopping': 'Shopping'};
 	
@@ -185,28 +189,18 @@ function updateSmiley(page) {
 			$("#smiley_percent_comparison_rest").html("than the average household in " 
 		+ $("#selected_location").html() + " with " + comparisonDisplaySize + " and similar income.");
 		}
-
-		
-		
-		
-		
-		
-		
-		
 	}
 }
 
-function loadPage(page) {
-	
+function loadPage(page, showChart) {
 	if (page == tab) return;
 	//tab  = page;
 	
-	var tabMap = {'intro': 0, 'transportation': 1, 'housing': 2, 'food': 3, 'shopping': 4, 'takeaction': 5};
 	banner_buttons_update(tabMap[page]);
 	
 	updateSmiley(page);
 	
-	slideTab(page);
+	slideTab(page, showChart);
 	if (page == 'takeaction') {
 		$("#chartTable").animate({'height': '0px'},500,function() {
 			$(this).hide();
@@ -220,6 +214,12 @@ function loadPage(page) {
 
 	$("#takeaction_checkbox_category_offset").click();
 	$(".takeaction_section_offset").slideUp();
+
+	if(!showChart) $('#chartTable').fadeOut();
+	else $('#chartTable').fadeIn();
+	
+	if(!showChart) $('#smileyContainer').fadeOut();
+	else $('#smileyContainer').fadeIn();
 }
 
 /*
@@ -240,8 +240,9 @@ function post(type) {
       };*/
 	  
 function init() {
+	$("#chartTable").hide();
 	
-	tab = 'intro';	
+	tab = 'insert1';	
 
 	$("#tester").click(function() { 
 		slideTab('intro');

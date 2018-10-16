@@ -1,0 +1,32 @@
+.augmented_message{
+    text-align: center;
+    font-size: 16pt;
+}
+
+.over_image{
+    font-size: 20pt;
+    position: absolute;
+    margin: 20px;
+    top: 45%;
+    transform: translate(0, -50%);
+    color: white;
+}
+
+.under_text{
+    filter: brightness(50%);
+}
+
+.augmented_message img{
+    width: 100%;
+}
+
+hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(92,165,68,0), rgba(92,165,68,.75), rgba(92,165,68,0));
+    margin: 40px 0px;
+}
+
+.tab_title{
+    text-align: center;
+}
