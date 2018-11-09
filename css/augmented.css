@@ -1,6 +1,29 @@
 .augmented_message{
-    text-align: center;
+    text-align: left;
     font-size: 16pt;
+}
+
+#takeaction_reset_chart{
+    display: none;
+}
+
+#qualtrics{
+    width: 1px; 
+    min-width: 100%; 
+    overflow: hidden; 
+    height: 1000px;
+    margin: 15px;
+}
+
+.footerLinks{
+    padding-top: 3em;
+}
+
+.warning{
+    color: red;
+    text-align: center;
+    width: 100%;
+    position: absolute;
 }
 
 .over_image{

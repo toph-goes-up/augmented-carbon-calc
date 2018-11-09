@@ -22,11 +22,6 @@ function slideTab(page, showChart=true) {
 	var height1 = $("#tab_" + tab).height();
 	var height2 = $("#tab_" + page).height();
 
-	console.log(showChart);
-
-
-	
-
 	isSliding = true;
 	$("#transition").css({'height' :height1 + 'px'}).animate({'height' :height2 + 'px'}, 500)
 	$("#tab_" + tab).appendTo("#transition");
@@ -215,9 +210,15 @@ function loadPage(page, showChart) {
 	$("#takeaction_checkbox_category_offset").click();
 	$(".takeaction_section_offset").slideUp();
 
-	if(!showChart) $('#chartTable').fadeOut();
-	else $('#chartTable').fadeIn();
-	
+	if(!showChart){
+		$('#chartTable').fadeOut();
+		$('.footerLinks').fadeIn();
+	}
+	else {
+		$('#chartTable').fadeIn();
+		$('.footerLinks').fadeOut();
+	}
+
 	if(!showChart) $('#smileyContainer').fadeOut();
 	else $('#smileyContainer').fadeIn();
 }

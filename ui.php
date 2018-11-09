@@ -150,6 +150,7 @@
                   society. Forests, drinking water, and clear skies are all essential to a happy, healthy, safe human life.
                 </div>
               </div>
+              <div class="tab_title tab_title_intro thinfont warning">Please read before continuing</div>
               <button id="next_button" style="position: absolute; right: 30px; font-size: 12px;" onClick="loadPage('intro')">Get Started</button>
             </div>
 
@@ -162,6 +163,7 @@
                     diseases such as respiratory problems and higher risks of cancer. Pollution can also lead to acid rain and gray, hazy skies.
                   </div>
                 </div>
+                <div class="tab_title tab_title_intro thinfont warning">Please read before continuing</div>
                 <button id="next_button" style="position: absolute; right: 30px; font-size: 12px;" onClick="loadPage('transportation')">Next</button>
                 <button id="prev_button" style="position: absolute; left: 30px; font-size: 12px;" onClick="loadPage('intro')">Previous</button>
             </div>
@@ -175,6 +177,7 @@
                   landscape changes affect the lives of the humans and wildlife that depend on the land.
                 </div>
                 <hr>
+                <div class="tab_title tab_title_intro thinfont warning">Please read before continuing</div>
                 <button id="next_button" style="position: absolute; right: 30px; font-size: 12px;" onClick="loadPage('housing')">Next</button>
                 <button id="prev_button" style="position: absolute; left: 30px; font-size: 12px;" onClick="loadPage('transportation')">Previous</button>
             </div>
@@ -187,6 +190,7 @@
                   and yields decline. Furthermore, runoff from farms and ranches enters ponds, rivers, oceans, and seas. 
                 </div>
                 <hr>
+                <div class="tab_title tab_title_intro thinfont warning">Please read before continuing</div>
                 <button id="next_button" style="position: absolute; right: 30px; font-size: 12px;" onClick="loadPage('food')">Next</button>
                 <button id="prev_button" style="position: absolute; left: 30px; font-size: 12px;" onClick="loadPage('housing')">Previous</button>
             </div>
@@ -201,6 +205,7 @@
                   negatively affected humans and numerous animals.
                   </div>
                 </div>
+                <div class="tab_title tab_title_intro thinfont warning">Please read before continuing</div>
                 <button id="next_button" style="position: absolute; right: 30px; font-size: 12px;" onClick="loadPage('shopping')">Next</button>
                 <button id="prev_button" style="position: absolute; left: 30px; font-size: 12px;" onClick="loadPage('food')">Previous</button>
             </div>
@@ -215,6 +220,7 @@
                   we live, so our children and our children’s children can experience nature for generations to come.
                   </div>
                 </div>
+                <div class="tab_title tab_title_intro thinfont warning">Please read before continuing</div>
                 <button id="next_button" style="position: absolute; right: 30px; font-size: 12px;" onClick="loadPage('takeaction')">Next</button>
                 <button id="prev_button" style="position: absolute; left: 30px; font-size: 12px;" onClick="loadPage('shopping')">Previous</button>
             </div>
@@ -1831,9 +1837,12 @@ background-image:url('./images/hover_balloon.png'); background-repeat: no-repeat
 
               </div>
 
+              <div> 
+                    <iframe id="qualtrics" frameborder="0" src="https://usu.co1.qualtrics.com/jfe/form/SV_0ibTm9gD0RvKvbL"></iframe>
+              </div>
 
-
-              <div style="font-family:Verdana, Geneva, sans-serif; font-size: 13px; ">
+              <!-- This is the pledges section. To turn it back on, just remove the display: none; property. -->                      
+              <div style="font-family:Verdana, Geneva, sans-serif; font-size: 13px; display: none;">
 
 
                 <input type="hidden" id="input_takeaction_more_efficient_vehicle" />
