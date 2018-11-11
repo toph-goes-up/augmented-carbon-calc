@@ -144,10 +144,10 @@
             <div id="tab_insert1" style="font-size: 13px; display: block; position: relative; top: 0; margin: 0 auto; width: 100%;">
               <div class="tab_title tab_title_intro thinfont">The Environment Supports People</div>
               <div class="augmented_message">
-                <img src="images/augmented/image2.jpg" class="under_text">
+                <img src="images/harm/image1.jpg" class="under_text">
                 <div class="over_image">
-                  Now more than ever it is important that the environment continues to provide resources for human 
-                  society. Forests, drinking water, and clear skies are all essential to a happy, healthy, safe human life.
+                Now more than ever it is important that we protect our natural habitats and start caring
+                about the environment. Preventing destruction of our forests, drinking water, and skies is of vital importance.
                 </div>
               </div>
               <div class="tab_title tab_title_intro thinfont warning">Please read before continuing</div>
@@ -156,13 +156,13 @@
 
             <div id="tab_insert2" style="font-size: 13px; display: none; position: relative; top: 0; margin: 0 auto; width: 100%;">
               <div class="tab_title tab_title_intro thinfont">Travel</div>
+                <hr>
                 <div class="augmented_message">
-                  <img src="images/augmented/image3.jpg" class="under_text">
-                  <div class="over_image">
-                    A healthy life and environment are important. The air pollution that vehicles produce can contribute to 
-                    diseases such as respiratory problems and higher risks of cancer. Pollution can also lead to acid rain and gray, hazy skies.
-                  </div>
+                  Protecting the earth is important. The air pollution that vehicles produce harm human 
+                  health, causing respiratory problems and higher risks of cancer. The emissions also cause 
+                  acid rain to fall from the skies, damaging plant and animal life.
                 </div>
+                <hr>
                 <div class="tab_title tab_title_intro thinfont warning">Please read before continuing</div>
                 <button id="next_button" style="position: absolute; right: 30px; font-size: 12px;" onClick="loadPage('transportation')">Next</button>
                 <button id="prev_button" style="position: absolute; left: 30px; font-size: 12px;" onClick="loadPage('intro')">Previous</button>
@@ -172,9 +172,10 @@
               <div class="tab_title tab_title_intro thinfont">Home</div>
                 <hr>
                 <div class="augmented_message">
-                  Chemical particles from vehicles, energy generation, and manufacturing also enter the air we breathe and the natural areas. 
-                  Extraction of mineral resources for vehicles, energy generation, and manufacturing permanently changes landscapes. These 
-                  landscape changes affect the lives of the humans and wildlife that depend on the land.
+                Human extraction of mineral resources for vehicles, energy generation, and manufacturing 
+                has destroyed landscapes and killed off countless animals and plants. This has indirect, 
+                harmful effects for humans as many plant species that we kill off could be used to make
+                medicines to protect human lives.
                 </div>
                 <hr>
                 <div class="tab_title tab_title_intro thinfont warning">Please read before continuing</div>
@@ -184,12 +185,14 @@
 
             <div id="tab_insert4" style="font-size: 13px; display: none; position: relative; top: 0; margin: 0 auto; width: 100%;">
               <div class="tab_title tab_title_intro thinfont">Food</div>
-                <hr>
                 <div class="augmented_message">
-                  Deforestation for food production depletes soil and leads to erosion. Food becomes harder to produce in barren soil, 
-                  and yields decline. Furthermore, runoff from farms and ranches enters ponds, rivers, oceans, and seas. 
+                <img src="images/harm/image3.jpg" class="under_text">
+                  <div class="over_image">
+                  Deforestation for food production has led to the erosion of topsoil, making formerly fertile land
+                  into useless deserts. The result is barren soil across the world, making it harder to produce food, 
+                  resulting in famine and starvation. 
+                  </div>
                 </div>
-                <hr>
                 <div class="tab_title tab_title_intro thinfont warning">Please read before continuing</div>
                 <button id="next_button" style="position: absolute; right: 30px; font-size: 12px;" onClick="loadPage('food')">Next</button>
                 <button id="prev_button" style="position: absolute; left: 30px; font-size: 12px;" onClick="loadPage('housing')">Previous</button>
@@ -198,11 +201,11 @@
             <div id="tab_insert5" style="font-size: 13px; display: none; position: relative; top: 0; margin: 0 auto; width: 100%;">
               <div class="tab_title tab_title_intro thinfont">Shopping</div>
                 <div class="augmented_message">
-                  <img src="images/augmented/image7.jpg" class="under_text">
+                  <img src="images/harm/image2.jpg" class="under_text">
                   <div class="over_image">
-                  When we use endless amounts of goods it leads to trash in the landscapes. Billions of tons of garbage enter the landfills 
-                  – many of which possess chemicals. Some of these chemicals enter our water. These pollutants and rising temperature have 
-                  negatively affected humans and numerous animals.
+                  When we use endless amounts of goods it leads to dumping of waste and chemicals into our water. 
+                  These pollutants and rising temperatures have resulted in the deaths of billions of fish and the 
+                  destruction of valuable habitat, such as coral reefs.
                   </div>
                 </div>
                 <div class="tab_title tab_title_intro thinfont warning">Please read before continuing</div>
@@ -213,11 +216,13 @@
             <div id="tab_insert6" style="font-size: 13px; display: none; position: relative; top: 0; margin: 0 auto; width: 100%;">
               <div class="tab_title tab_title_intro thinfont">Take Action</div>
                 <div class="augmented_message">
-                  <img src="images/augmented/image6.jpg" class="under_text">
+                  <img src="images/harm/image7.jpg" class="under_text">
                   <div class="over_image">
-                  The good news is that we can do something for the environments we live in. Simply reducing landfill-bound waste, choosing 
-                  energy efficient appliances, and driving less can make a big difference. It should be everyone’s goal to improve the places 
-                  we live, so our children and our children’s children can experience nature for generations to come.
+                  The good news is that we can stop harming the environments we live in, protecting them 
+                  from further degradation. Simply reducing landfill-bound waste, choosing energy efficient
+                  appliances, and driving less can make a big difference. It should be everyone’s goal to care
+                  for the environment, so our children and our children’s children can experience a healthy
+                  and thriving natural environment.
                   </div>
                 </div>
                 <div class="tab_title tab_title_intro thinfont warning">Please read before continuing</div>
