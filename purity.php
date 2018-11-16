@@ -185,11 +185,11 @@
               <div class="tab_title tab_title_intro thinfont">Food</div>
                 <hr>
                 <div class="augmented_message">
-                <img src="images/purity/image2.jpg">
+                <img src="images/purity/image2.jpg" class="under_text">
                 <div class="over_image">
-                Chemical particles from vehicles, energy generation, and manufacturing end up everywhere – in our food, 
-                on our skin, and inside our lungs. When we live near toxic sites or inhale dirty, smog-filled air, they actually
-                enter our bodies and become a part of us.
+                Deforestation for food production turns once pristine wilderness into barren, depleted fields. Runo ff from farms 
+                contaminates the water we drink. Even the livestock we eat deposit fecal matter in pristine mountain streams 
+                polluting recreational and drinking water.
                 </div>
                 </div>
                 <hr>
